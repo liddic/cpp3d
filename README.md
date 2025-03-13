@@ -21,6 +21,6 @@ CPP values represent the functional capacity (%) allocated to each compound, ref
 
 ## Code example
 
-Bioinformatics for generating SUPER-FOCUS functional profiling data are provided via my earlier method, see [https://github.com/liddic/compound_potential] > [sunbad-resto](https://github.com/liddic/compound_potential/tree/main/sunbad-resto) and [forslund-t2d](https://github.com/liddic/compound_potential/tree/main/forslund-t2d) case studies which use published data from [Sun and Badgley 2019](https://doi.org/10.1016/j.soilbio.2019.05.004) and [Forslund et al 2015](https://doi.org/10.1038/nature15766).
+Bioinformatics for generating SUPER-FOCUS functional profiling data are provided via my earlier method, see [liddic/compound_potential](https://github.com/liddic/compound_potential) > [sunbad-resto](https://github.com/liddic/compound_potential/tree/main/sunbad-resto) and [forslund-t2d](https://github.com/liddic/compound_potential/tree/main/forslund-t2d) case studies which use published data from [Sun and Badgley 2019](https://doi.org/10.1016/j.soilbio.2019.05.004) and [Forslund et al 2015](https://doi.org/10.1038/nature15766).
 
 Example R code for the case study analysis titled 'Overlapping soil and gut microbiome compound processing potential in a gradient of ecosystem quality and subjects with type 2 diabetes' is provided in the attached .R file. Outputs from this case study are also available in the attached .xlsx file.
