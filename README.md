@@ -13,14 +13,21 @@ Therefore, stakeholders can benefit from improved insights and understanding of 
 
 There are existing metabolite prediction frameworks, but these are typically limited to particular organisms and environments and are poorly suited to revealing potential metabolism in microbially diverse and fluctuating systems, such as soils.
 
-## Compound processing potential (CPP) method overview
+## Compound processing potential (CPP) method
 
-This updated CPP method uses outputs from existing [SUPER-FOCUS](https://github.com/metageni/SUPER-FOCUS) metagenome functional profiling software, which estimates the relative distribution of genetic capacity across various functional pathways. I link up existing look-up tables from the [ModelSEED biochemistry database](https://github.com/ModelSEED/ModelSEEDDatabase/tree/master/Biochemistry) to connect each functional pathway (or 'function') to one or more relevant chemical reactions, and the many compounds in each reaction. Functional relative abundances are then divided among all linked reactions and compounds with weighting to account for molar ratios (stoichiometry) of reactions.  Reaction inputs and products are all treated equally, because often microbes can facilitate a string of reactions (so products become inputs, and so on). For all carbon (C)-containing compounds, elemental ratios of oxygen (O):C, hydrogen (H):C, and nitrogen (N):C are calculated to enable visualisation and and analysis of energetically and chemically similar compounds. 
+This updated CPP method (Fig. 1) uses outputs from existing [SUPER-FOCUS](https://github.com/metageni/SUPER-FOCUS) metagenome functional profiling software, which estimates the relative distribution of genetic capacity across various functional pathways. I link up existing look-up tables from the [ModelSEED biochemistry database](https://github.com/ModelSEED/ModelSEEDDatabase/tree/master/Biochemistry) to connect each functional pathway (or 'function') to one or more relevant chemical reactions, and the many compounds in each reaction. Functional relative abundances are then divided among all linked reactions and compounds with weighting to account for molar ratios (stoichiometry) of reactions.  Reaction inputs and products are all treated equally, because often microbes can facilitate a string of reactions (so products become inputs, and so on). For all carbon (C)-containing compounds, elemental ratios of oxygen (O):C, hydrogen (H):C, and nitrogen (N):C are calculated to enable visualisation and and analysis of energetically and chemically similar compounds. 
 
 CPP values represent the functional capacity (%) allocated to each compound, reflecting their potential metabolism in a given metagenome.
+
+![cpp3d method overview](/ancillary-files/Figure1-CPP-method-update_Soil-or-stool.png)
+Figure 1. Method overview
 
 ## Code example
 
 Bioinformatics for generating SUPER-FOCUS functional profiling data are provided via my earlier method, see [liddic/compound_potential](https://github.com/liddic/compound_potential) > [sunbad-resto](https://github.com/liddic/compound_potential/tree/main/sunbad-resto) and [forslund-t2d](https://github.com/liddic/compound_potential/tree/main/forslund-t2d) case studies which use published data from [Sun and Badgley 2019](https://doi.org/10.1016/j.soilbio.2019.05.004) and [Forslund et al 2015](https://doi.org/10.1038/nature15766).
 
 Example R code for the case study analysis titled 'Overlapping soil and gut microbiome compound processing potential in a gradient of ecosystem quality and subjects with type 2 diabetes' is provided in the attached .R file. Outputs from this case study are also available in the attached .xlsx file.
+
+![Example analyses](/ancillary-files/Figure2-Example-analyses.png)
+Figure 2. Example CPP analyses from soil microbiomes under post-mining forest ecosystem restoration (raw metagenome data from Sun & Badgley 2019). a) Potential metabolism for CO2 increases, suggesting rising microbial activity with revegetation age. b) Visualisation of potential metabolism (log10 CPP values) for 7,736 carbon-containing compounds in a single soil metagenome sample. c) Trend analysis results showing compounds with increasing (aqua) or decreasing (red) CPP under forest ecosystem restoration. Clusters of points indicate energetically and chemically similar compounds. d) PCoA ordination showing CPP compositional differences (beta diversity).
+
