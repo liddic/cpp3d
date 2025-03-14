@@ -22,7 +22,7 @@ CPP values represent the functional capacity (%) allocated to each compound, ref
 ![cpp3d method overview](/ancillary-files/Figure1-CPP-method-update_Soil-or-stool.png)
 Figure 1. Method overview
 
-## Code example
+## Example analysis and code
 
 Bioinformatics for generating SUPER-FOCUS functional profiling data are provided via my earlier method, see [liddic/compound_potential](https://github.com/liddic/compound_potential) > [sunbad-resto](https://github.com/liddic/compound_potential/tree/main/sunbad-resto) and [forslund-t2d](https://github.com/liddic/compound_potential/tree/main/forslund-t2d) case studies which use published data from [Sun and Badgley 2019](https://doi.org/10.1016/j.soilbio.2019.05.004) and [Forslund et al 2015](https://doi.org/10.1038/nature15766).
 
