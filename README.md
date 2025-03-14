@@ -20,7 +20,7 @@ This updated CPP method (Fig. 1) uses outputs from existing [SUPER-FOCUS](https:
 CPP values represent the functional capacity (%) allocated to each compound, reflecting their potential metabolism in a given metagenome.
 
 ![cpp3d method overview](/ancillary-files/Figure1-CPP-method-update_Soil-or-stool.png)
-Figure 1. Method overview
+_**Figure 1.** Method overview_
 
 ## Example analysis and code
 
@@ -29,5 +29,5 @@ Initial bioinformatics for generating SUPER-FOCUS functional profiling data are 
 Example R code for the study titled: 'Overlapping soil and gut microbiome compound processing potential in a gradient of ecosystem quality and subjects with type 2 diabetes' (BIORXIV/2025/642605) is provided in the attached .R file. Outputs from this case study are also available in the attached .xlsx file.
 
 ![Example analyses](/ancillary-files/Figure2-Example-analyses.png)
-Figure 2. Example CPP analyses from soil microbiomes under post-mining forest ecosystem restoration (raw metagenome data from Sun & Badgley 2019). a) Potential metabolism for CO2 increases, suggesting rising microbial activity with revegetation age. b) Visualisation of potential metabolism (log10 CPP values) for 7,736 carbon-containing compounds in a single soil metagenome sample. c) Trend analysis results showing compounds with increasing (aqua) or decreasing (red) CPP under forest ecosystem restoration. Clusters of points indicate energetically and chemically similar compounds. d) PCoA ordination showing CPP compositional differences (beta diversity).
+_**Figure 2.** Example CPP analyses from soil microbiomes under post-mining forest ecosystem restoration (raw metagenome data from Sun & Badgley 2019). a) Potential metabolism for CO2 increases, suggesting rising microbial activity with revegetation age. b) Visualisation of potential metabolism (log10 CPP values) for 7,736 carbon-containing compounds in a single soil metagenome sample. c) Trend analysis results showing compounds with increasing (aqua) or decreasing (red) CPP under forest ecosystem restoration. Clusters of points indicate energetically and chemically similar compounds. d) PCoA ordination showing CPP compositional differences (beta diversity)._
 
