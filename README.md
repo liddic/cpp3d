@@ -15,11 +15,12 @@ There are existing metabolite prediction frameworks, but these are typically lim
 
 ## Compound processing potential (CPP) method
 
-This updated CPP method (Fig. 1) uses outputs from existing [SUPER-FOCUS](https://github.com/metageni/SUPER-FOCUS) metagenome functional profiling software, which estimates the relative distribution of genetic capacity across various functional pathways. I link up existing look-up tables from the [ModelSEED biochemistry database](https://github.com/ModelSEED/ModelSEEDDatabase/tree/master/Biochemistry) to connect each functional pathway (or 'function') to one or more relevant chemical reactions, and the many compounds in each reaction. Functional relative abundances are then divided among all linked reactions and compounds with weighting to account for molar ratios (stoichiometry) of reactions.  Reaction inputs and products are all treated equally, because often microbes can facilitate a string of reactions (so products become inputs, and so on). For all carbon (C)-containing compounds, elemental ratios of oxygen (O):C, hydrogen (H):C, and nitrogen (N):C are calculated to enable visualisation and and analysis of energetically and chemically similar compounds. 
+This updated CPP method (Fig. 1) uses outputs from existing [SUPER-FOCUS](https://github.com/metageni/SUPER-FOCUS) metagenome functional profiling software, which estimates the relative distribution of genetic capacity across various functional pathways. I link up existing look-up tables from the [ModelSEED biochemistry database](https://github.com/ModelSEED/ModelSEEDDatabase/tree/master/Biochemistry) to connect each functional pathway (or 'function') to one or more relevant chemical reactions, and the many compounds in each reaction. Functional relative abundances are then divided among all linked reactions and compounds with weighting to account for molar ratios (stoichiometry) of reactions.  Reaction inputs and products are all treated equally, because often microbes can facilitate a string of reactions (so products become inputs, and so on). For all carbon (C)-containing compounds, elemental ratios of oxygen (O):C, hydrogen (H):C, and nitrogen (N):C are calculated to enable "3-d" visualisation and analysis of energetically and chemically similar compounds. 
 
 CPP values represent the functional capacity (%) allocated to each compound, reflecting their potential metabolism in a given metagenome.
 
 ![cpp3d method overview](/ancillary-files/Figure1-CPP-method-update_Soil-or-stool.png)
+
 _**Figure 1.** Method overview_
 
 ## Example analysis and code
@@ -29,5 +30,6 @@ Initial bioinformatics for generating SUPER-FOCUS functional profiling data are 
 Example R code for the study titled: 'Overlapping soil and gut microbiome compound processing potential in a gradient of ecosystem quality and subjects with type 2 diabetes' (BIORXIV/2025/642605) is provided in the attached .R file. Outputs from this case study are also available in the attached .xlsx file.
 
 ![Example analyses](/ancillary-files/Figure2-Example-analyses.png)
+
 _**Figure 2.** Example CPP analyses from soil microbiomes under post-mining forest ecosystem restoration (raw metagenome data from Sun & Badgley 2019). a) Potential metabolism for CO2 increases, suggesting rising microbial activity with revegetation age. b) Visualisation of potential metabolism (log10 CPP values) for 7,736 carbon-containing compounds in a single soil metagenome sample. c) Trend analysis results showing compounds with increasing (aqua) or decreasing (red) CPP under forest ecosystem restoration. Clusters of points indicate energetically and chemically similar compounds. d) PCoA ordination showing CPP compositional differences (beta diversity)._
 
