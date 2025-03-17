@@ -1,5 +1,5 @@
 # cpp3d
-Microbial metagenome functional profiling at the resolution of individual compounds (... and in 3-d!)
+Microbial metagenome functional profiling at the resolution of individual compounds (... in 3-d!)
 
 ## Background
 Microbiomes are everywhere and must be better harnessed to address significant challenges in climate and environmental change, food security, and sustainable management of soil, land and water. But we need to understand what they are doing, in different environments, in order to harness them.
