@@ -25,9 +25,9 @@ _**Figure 1.** Method overview_
 
 ## Example analysis and code
 
-Initial bioinformatics for generating SUPER-FOCUS functional profiling data are provided via my earlier methods, see [liddic/compound_potential](https://github.com/liddic/compound_potential) > [sunbad-resto](https://github.com/liddic/compound_potential/tree/main/sunbad-resto) and [forslund-t2d](https://github.com/liddic/compound_potential/tree/main/forslund-t2d) case studies which use published data from [Sun and Badgley 2019](https://doi.org/10.1016/j.soilbio.2019.05.004) and [Forslund et al 2015](https://doi.org/10.1038/nature15766).
+Example bioinformatics for generating SUPER-FOCUS functional profiling data are provided via my earlier methods, see [liddic/compound_potential](https://github.com/liddic/compound_potential) > [sunbad-resto](https://github.com/liddic/compound_potential/tree/main/sunbad-resto) and [forslund-t2d](https://github.com/liddic/compound_potential/tree/main/forslund-t2d) case studies which use published data from [Sun and Badgley 2019](https://doi.org/10.1016/j.soilbio.2019.05.004) and [Forslund et al 2015](https://doi.org/10.1038/nature15766).
 
-Example R code for the study titled: 'Overlapping soil and gut microbiome compound processing potential in a gradient of ecosystem quality and subjects with type 2 diabetes' (BIORXIV/2025/642605) is provided in the attached .R file. Outputs from this case study are also available in the attached .xlsx file.
+Example R code for the study titled: 'Overlapping soil and gut microbiome compound processing potential in a gradient of ecosystem quality and subjects with type 2 diabetes' - see Preprint [BIORXIV/2025/642605](https://doi.org/10.1101/2025.03.11.642605) is provided in the attached .R file. Outputs from this case study are also available in the attached .xlsx file.
 
 ![Example analyses](/ancillary-files/Figure2-Example-analyses.png)
 
